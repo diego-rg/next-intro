@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link href="/about">About</Link>
           </li>
           <li className="p-4">
-            <Link href="/">Home</Link>
+            <Link href="/shop">Shop</Link>
           </li>
           <li className="p-4">
             <Link href="/">Home</Link>
@@ -49,7 +49,7 @@ const Navbar = () => {
               <Link href="/about">About</Link>
             </li>
             <li className="p-4 border-b border-b-gray-400">
-              <Link href="/">Home</Link>
+              <Link href="/shop">Shop</Link>
             </li>
             <li className="p-4 border-b border-b-gray-400">
               <Link href="/">Home</Link>

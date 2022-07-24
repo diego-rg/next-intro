@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-green-800 text-white">
       <Head>
         <title>Homepage</title>
         <meta name="description" content="Página web de blah blah blah." />
