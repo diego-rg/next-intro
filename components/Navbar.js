@@ -23,9 +23,6 @@ const Navbar = () => {
           <li className="p-4">
             <Link href="/shop">Shop</Link>
           </li>
-          <li className="p-4">
-            <Link href="/">Home</Link>
-          </li>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
           {nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
@@ -50,9 +47,6 @@ const Navbar = () => {
             </li>
             <li className="p-4 border-b border-b-gray-400">
               <Link href="/shop">Shop</Link>
-            </li>
-            <li className="p-4 border-b border-b-gray-400">
-              <Link href="/">Home</Link>
             </li>
           </ul>
         </div>
