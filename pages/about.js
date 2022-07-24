@@ -7,7 +7,7 @@ export default function About() {
         <title>Homepage</title>
         <meta name="description" content="About da paxina blah." />
       </Head>
-      <h1 className="font-bold text-xl">About</h1>
+      <h3 className="font-bold text-xl">About</h3>
       <p className="text-sm">blah blah blah</p>
     </div>
   );
