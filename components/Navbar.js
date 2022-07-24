@@ -31,6 +31,7 @@ const Navbar = () => {
           {nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
         </div>
         <div
+          onClick={handleNav}
           className={
             nav
               ? "fixed left-0 top-0 w-[80%] h-full bg-black border-r border-r-gray-900 ease-in-out duration-500"
@@ -41,16 +42,16 @@ const Navbar = () => {
             Brand
           </h1>
           <ul className="uppercase p-2">
-            <li className="p-4 border-b border-b-gray-400" onClick={handleNav}>
+            <li className="p-4 border-b border-b-gray-400">
               <Link href="/">Home</Link>
             </li>
-            <li className="p-4 border-b border-b-gray-400" onClick={handleNav}>
+            <li className="p-4 border-b border-b-gray-400">
               <Link href="/about">About</Link>
             </li>
-            <li className="p-4 border-b border-b-gray-400" onClick={handleNav}>
+            <li className="p-4 border-b border-b-gray-400">
               <Link href="/">Home</Link>
             </li>
-            <li className="p-4 border-b border-b-gray-400" onClick={handleNav}>
+            <li className="p-4 border-b border-b-gray-400">
               <Link href="/">Home</Link>
             </li>
           </ul>
