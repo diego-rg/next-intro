@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function About() {
   return (
-    <div className="w-96 h-96 bg-red-800 text-white">
+    <div className="bg-red-800 text-white">
       <Head>
         <title>Homepage</title>
         <meta name="description" content="About da paxina blah." />
