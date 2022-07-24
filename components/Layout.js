@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
       <Navbar />
       <main>
         <Header />
-        <h1>Layout das paxinas</h1>
+        <p>Layout das paxinas</p>
         {children}
       </main>
       <Footer />

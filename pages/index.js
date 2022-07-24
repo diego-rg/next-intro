@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="bg-green-800 text-white">
       <Head>
-        <title>Homepage Next Intro</title>
+        <title>Homepage Next Intro Test</title>
         <meta
           name="description"
           content="Página web de prueba con el framework next.js con react y tailwind css."
