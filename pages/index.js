@@ -5,12 +5,6 @@ export default function Home() {
     <div className="bg-green-800 text-white">
       <Head>
         <title>Homepage Next Intro Test</title>
-        <meta
-          name="description"
-          content="Página web de prueba con el framework next.js con react y tailwind css."
-        />
-        <link rel="apple-touch-icon" href="../public/logo192.png" />
-        <link rel="icon" href="../public/favicon.ico" />
       </Head>
       <h3 className="font-bold text-xl">Hola</h3>
       <p className="text-sm">
