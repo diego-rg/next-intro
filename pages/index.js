@@ -1,4 +1,3 @@
-import Head from "next/head";
 import axios from "axios";
 
 export const getStaticProps = async () => {
@@ -21,9 +20,6 @@ export default function Home({ data }) {
 
   return (
     <div className="bg-green-800 text-white">
-      <Head>
-        <title>Homepage Next Intro Test</title>
-      </Head>
       <h3 className="font-bold text-xl">Hola</h3>
       <h4 className="bg-orange-500 text-center">Datos API</h4>
       <ul className="p-4">{datosApi}</ul>
